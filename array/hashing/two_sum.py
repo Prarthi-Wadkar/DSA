@@ -6,9 +6,13 @@ def two_sum(target, nums):
 
     for i in range(len(nums)):
         current = nums[i]
-        needed = target - needed 
+        needed = target - current
 
         if needed in seen:
-            return[current[needed], i]
+            return[seen[needed], i]
 
         seen[current] = i   
+
+sum = two_sum(target, nums)
+
+print(sum)
