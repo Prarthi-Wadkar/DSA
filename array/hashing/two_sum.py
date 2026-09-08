@@ -11,8 +11,4 @@ def two_sum(target, nums):
         if needed in seen:
             return[current[needed], i]
 
-        seen[current] = i
-
-        
-
-    
+        seen[current] = i   
