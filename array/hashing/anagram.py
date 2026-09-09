@@ -19,8 +19,8 @@ def anagram(s,t):
         else:
             frequency_t[characters] = 1
 
-    for text in s:
-        print(frequency_s[character], character)
+    for text in frequency_s:
+        print(frequency_s[text], text)
 
 
 anagram(s,t)
