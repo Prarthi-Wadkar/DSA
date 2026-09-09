@@ -13,14 +13,18 @@ def anagram(s,t):
         else:
             frequency_s[character] = 1
 
+        
     for characters in t:
         if characters in frequency_t:
             frequency_t[characters] = frequency_t[characters] + 1
         else:
             frequency_t[characters] = 1
 
-    for text in frequency_s:
-        print(frequency_s[text], text)
-
-
-anagram(s,t)
+        
+    if frequency_s == frequency_t:
+        return True
+    else:
+        return False
+    
+    
+print(anagram(s,t))
