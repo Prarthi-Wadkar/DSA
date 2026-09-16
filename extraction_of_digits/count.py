@@ -11,3 +11,16 @@ def count_digits(num):
     return count
 
 print(count_digits(num))
+
+
+#another method
+"""
+from math import * 
+def countDigits(num):
+    return int(log10(num) + 1)
+print(countDigits(num))
+"""
+"""
+#one more method
+num = str(num)
+print(len(num)) """
