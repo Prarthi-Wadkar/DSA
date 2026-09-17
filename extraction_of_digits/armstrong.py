@@ -11,6 +11,9 @@ def armstrong(n):
         total = total + (last_digit **digits)
         n = n//10        
 
-    return total
+    if num == total:
+        return True
+    else:
+        return False
 
 print(armstrong(n))
