@@ -11,6 +11,6 @@ def check_frequency(n):
         else:
             frequency[n[i]] = 1
 
-    print(frequency())
+    print(frequency)
 
 print(check_frequency(n))
