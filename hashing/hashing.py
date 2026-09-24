@@ -7,8 +7,7 @@ def frequency(n,m):
         count = 0
         for x in n:
             if x == num:
-                count = +1
-
-    print(count)
+                count += 1
+        print(count)
 
 frequency(n,m)
